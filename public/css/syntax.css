@@ -29,11 +29,11 @@
 .highlight .nb { color: #366 } /* Name.Builtin */
 .highlight .nc { color: #0a8; } /* Name.Class */
 .highlight .no { color: #360 } /* Name.Constant */
-.highlight .nd { color: #99f } /* Name.Decorator */
+.highlight .nd { color:#069 } /* Name.Decorator */
 .highlight .ni { color: #999; } /* Name.Entity */
 .highlight .ne { color: #c00; } /* Name.Exception */
 .highlight .nf { color: #c0f } /* Name.Function */
-.highlight .nl { color: #99f } /* Name.Label */
+.highlight .nl { color: #069 } /* Name.Label */
 .highlight .nn { color: #0cf; } /* Name.Namespace */
 .highlight .nt { color: #2f6f9f; } /* Name.Tag */
 .highlight .nv { color: #033 } /* Name.Variable */
@@ -70,6 +70,6 @@ code, pre {
   }
 
   pre, code {
-    font-family: "Cascadia mono";
+    font-family: "Cascadia Mono", Menlo, Consolas, "Courier New", monospace;
     font-size: 13px; /* Adjust the size as needed */
   }
