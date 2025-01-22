@@ -7,3 +7,5 @@ vendor
 Gemfile
 
 Gemfile.lock
+
+.obsidian/
