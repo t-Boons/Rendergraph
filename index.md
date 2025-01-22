@@ -287,12 +287,13 @@ To fetch the data, we use that same string key. We have to use ``std::any_cast``
 ```
 
 ## Future work/optimizations
-The current state of the system is very simple and will suffice for most render pipelines. But there are still a lot of optimizations that can be done.
-The tracking of dependencies is pass-based and not resource-based. This would allow for better resource-transitions and pass sorting.
-It does not check if the operation in a pass is a read or write operation. If 2 passes read from 1 resource there is no need for a gpu sync since the resource does not get written to. The Rendergraph does not take that in to account currently.
-The resource-state transitions are done inside the execution lambda. This makes them unable to be batched.
+The tracking of dependencies is pass-based and not resource-based. This would allow for better resource-transitions and pass sorting. 
+
+It does not check if the operation in a pass is a read or write operation. If 2 passes read from 1 resource, there is no need for a gpu sync since the resource does not get written to. The Rendergraph does not take that into account currently.
+
 The Rendergraph does not have a compute pipeline. Adding this would allow for more flexibility with the types of gpu work we do.
-There is a technique called Dead stripping which removes all the passes that do not contribute to the graph and don't have any dependencies. The current system does not do this.
+
+There is a technique called Dead stripping, which removes all the passes that do not contribute to the graph and don't have any dependencies. The current system does not do this.
 
 ## Sources
 * Class based renderpasses in DX11 by planetchili  
