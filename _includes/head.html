@@ -6,11 +6,7 @@
   <meta name="google-site-verification" content="7X3J63TpxLZvkhxd243r8jSwtuhoculCOURZcD9xNbE" />
   <meta name="description" content="{{ site.description }}" />
   <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
-    {% else %}
-      {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
+    {{ site.title }} &middot; {{ site.tagline }}
   </title>
 
   {% if page.url and site.baseurl %}
