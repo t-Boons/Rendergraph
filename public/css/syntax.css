@@ -63,3 +63,13 @@
 .css .o,
 .css .o + .nt,
 .css .nt + .nt { color: #999; }
+
+code, pre {
+    white-space: pre;
+    overflow-x: auto;
+  }
+
+  pre, code {
+    font-family: "Cascadia mono";
+    font-size: 13px; /* Adjust the size as needed */
+  }
