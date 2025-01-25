@@ -1,7 +1,7 @@
 title: Rendergraphs
 tagline: A Practical Guide
 description: >- # this means to ignore newlines until "baseurl:"
- Rendering systems with high complexity are hard to manage, which leads to bugs and unreadable code. That's why we have Rendergraphs to mitigate this issue, along with other optimizations that the use of a Rendergraph will bring to you if used in your rendering pipeline. In this blog I will be explaining how I designed and implemented a simple Rendergraph system into my DirectX 12 renderer called Butterfly.
+ Rendering systems with high complexity are hard to manage, which leads to bugs and unreadable code. That's why we have Rendergraphs to mitigate this issue, along with other optimizations that the use of a Rendergraph will give if used in your rendering pipeline. In this blog I will be explaining how I designed and implemented a simple Rendergraph system into my DirectX 12 renderer called Butterfly.
 baseurl: "/Rendergraph" # the subpath of your site, e.g. /blog
 url: "https://t-boons.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
