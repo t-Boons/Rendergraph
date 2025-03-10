@@ -39,7 +39,7 @@ struct GBufferLight
 
 GBufferLight* params = builder.AllocParameters<GBufferLight>();
 
-params->PositionTexture = builder.GetPassData<GBufferLight, GBufferPostiion>();
+params->PositionTexture = builder.GetPassData<GBufferLight, GBufferPosition>();
 // etc.
 
 builder.AddPass<GBufferLight>("Composite pass",
